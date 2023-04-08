@@ -1,3 +1,5 @@
+import * from cryptography 
+
 decrypted_data = private_key.decrypt(
     encrypted_data,
     padding.OAEP(
@@ -7,4 +9,5 @@ decrypted_data = private_key.decrypt(
     )
 )
 
-print(decrypted_data)  # should output "b'Hello, world!'"
+# should output true fingerprint hash
+print(decrypted_data)  
