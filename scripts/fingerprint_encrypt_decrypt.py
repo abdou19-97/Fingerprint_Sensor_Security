@@ -52,3 +52,7 @@ decrypted_data = f.decrypt(encrypted_data)
 # 8. Save the decrypted fingerprint data to a file
 with open('decrypted_fingerprint.txt', 'wb') as f:
     f.write(decrypted_data)
+
+
+ with open('encrypted_fingerprint.txt', 'wb') as f:
+    f.write(encrypted_data)
